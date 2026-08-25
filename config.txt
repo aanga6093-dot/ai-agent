@@ -1,0 +1,3 @@
+speech = False
+text_output = True
+voice_detector = False
