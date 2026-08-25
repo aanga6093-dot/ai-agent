@@ -17,7 +17,7 @@ target = datetime(*waktu_aktif)
 
 selisih = (target - datetime.now()).total_seconds()
 if selisih > 0:
-    time.sleep(0)
+    time.sleep(selisih)
 
 with open("nuro.py", "r") as f:
     script_ai_reminder = f.read()
